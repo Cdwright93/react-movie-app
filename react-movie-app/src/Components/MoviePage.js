@@ -5,7 +5,6 @@ const MoviePage = (props) => {
 	const { title } = useParams(props);
 	const movie = props.movieList.find((movie) => movie.Title === title);
 
-	console.log(props);
 	return (
 		<div className="movie-page">
 			<div className="movie-page-content">
