@@ -1,5 +1,5 @@
-import MovieSideBar from "../Components/MovieSidebar"
-import { Outlet } from "react-router-dom"
+import MovieSideBar from "../Components/MovieSidebar";
+import { Outlet } from "react-router-dom";
 
 const MovieLayout = (props) => {
 	const { movieList } = props;
@@ -13,4 +13,4 @@ const MovieLayout = (props) => {
 	);
 };
 
-export default MovieLayout
+export default MovieLayout;
